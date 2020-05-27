@@ -24,7 +24,7 @@ while(ran != num):
             print("DOWN\t시도 횟수",count)
         else:
             @app.route('/')
-            def trea():
+            def trea():note
                 return render_template('image.html')
     
 if __name__ == '__main__':

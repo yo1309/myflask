@@ -63,6 +63,7 @@ def method():
         num = request.form['num']
         name = request.form['name']
         print(num, name)
+        with open("static/save.txt")
         return 'POST이다.학번은 {} 이름은 {}이다'.format(num, name)
 
 
